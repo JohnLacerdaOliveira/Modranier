@@ -15,7 +15,7 @@ public class Cursor implements KeyboardHandler {
     private boolean isPaintingOn = false;
 
     //TODO
-    private Color selectedColor = Color.BLACK;
+    private Color selectedColor = Color.RED;
 
     Cursor(Canvas myCanvas) {
 
