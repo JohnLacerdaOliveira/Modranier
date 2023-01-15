@@ -1,4 +1,4 @@
-package org.LoneWolfProductions;
+package org.lonewolfproductions;
 
 import org.academiadecodigo.simplegraphics.graphics.Color;
 

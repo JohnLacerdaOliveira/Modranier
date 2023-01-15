@@ -1,4 +1,4 @@
-package org.LoneWolfProductions;
+package org.lonewolfproductions;
 
 import javax.swing.*;
 import javax.swing.event.ChangeEvent;
@@ -140,15 +140,15 @@ public class StarterFrame {
 
         //loading an image from a file
         final Toolkit defaultToolkit = Toolkit.getDefaultToolkit();
-        final URL imageResource = Main.class.getClassLoader().getResource("images/icon128*128.png");
-        final Image image = defaultToolkit.getImage(imageResource);
+        final URL imageResource = Main.class.getClassLoader().getResource("resources/icons/icon128*128.png");
+        //final Image image = defaultToolkit.getImage(imageResource);
 
         //this is new since JDK 9
         final Taskbar taskbar = Taskbar.getTaskbar();
 
         try {
             //set icon for macOS (and other systems which do support this method)
-            taskbar.setIconImage(image);
+            //taskbar.setIconImage(image);
 
         } catch (final UnsupportedOperationException e) {
             System.out.println("The OS does not support: 'taskbar.setIconImage'");

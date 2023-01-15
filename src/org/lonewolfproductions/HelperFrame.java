@@ -1,4 +1,4 @@
-package org.LoneWolfProductions;
+package org.lonewolfproductions;
 
 import javax.swing.*;
 import java.awt.*;

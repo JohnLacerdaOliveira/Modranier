@@ -1,4 +1,4 @@
-package org.LoneWolfProductions;
+package org.lonewolfproductions;
 
 
 //TODO - either use Simple graphics library amd create color menu or use java awt. library
