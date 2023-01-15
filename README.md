@@ -1,6 +1,6 @@
 #  ![.ico](/resources/icons/icon32*32.png)  Mondrianer
 
-> Drawing 2D desktop application intentend to created "pixeleted" art. Inspired by the works of Dutsh painter [Piet Mondrian](https://pt.wikipedia.org/wiki/Piet_Mondrian).
+> Desktop 2D drawing application intentend to created "pixeleted" art. Inspired by the works of Dutsh painter [Piet Mondrian](https://pt.wikipedia.org/wiki/Piet_Mondrian).
 
 > Demo  ==>  Given the app is still in develpment I haven't yet compiled it, can be run thru a JDK compatible IDE see [Setup](#setup) for more info.
 
@@ -18,16 +18,21 @@
 
 
 ## Screenshots
+<picture>
+<img src="ScreenShots/ScreenShot1.png">
+</picture>
 
-<div align="center">
-    <video autoplay=true 
-    src="https://user-images.githubusercontent.com/28967333/212521136-90a44fa9-1449-4d99-b363-c961275a8f3c.mov">
-    </video>
-</div>
+<picture>
+<img src="ScreenShots/ScreenShot2.png">
+</picture>
+
+<picture>
+<img src="ScreenShots/ScreenShot3.png">
+</picture>
 
 
 ## General Information
-2D drawing desktop application implemented in Java, intended to create "pixelated" style art with a user difined canvas size and resolution. Current status is one of a minimum viable product with the features regarding v1.0 coming soon. 
+2D drawing desktop application implemented in Java, intended to create "pixelated" style art with a user difined canvas size and resolution.
 
 
 ## Technologies Used
@@ -40,28 +45,24 @@
 
 
 ## Project Status
-Alpha fase corresponding to a proof of concept, close to a minimum viable product when features listed under v1.0 are implemented
+Current status is one of an alpha phase corresponding to a proof of concept, I'll consider it as a minimum viable product once features regardind v1.0 discribed [here](#room-for-improvement) are implemented. 
 
 
 ## Features
-- Dynamically generated canvas size and resolution defined thru a startUp prompt
+- Dynamically generated canvas size and resolution defined thru a start-up prompt
 - Save and load features that store the image as .txt file allowing to save work in between sessions.
 
 
 ## Room for Improvement
 v1.0
 - Remove SimplyGraphics dependency and implement all graphical functionality thru Java .awt and swing libraries
+- Ability to change the color using the colorChooser panel
 - Ability to remove the grid
 - Ability to print screen the canvas and export it as .jpeg file
-- Moving platforms
-- Starter menu
-- Player Selection
 
 
 ## Acknowledgements
-To Pedro Vieira for the inpiration behind the idea:
-- [Pedro Vieira](https://www.linkedin.com/in/thepedrov/)
-
+To [Pedro Vieira](https://www.linkedin.com/in/thepedrov/) for the inspiration behind the idea
 
 
 ## Contact me
